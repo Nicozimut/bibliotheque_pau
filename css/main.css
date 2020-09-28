@@ -64,9 +64,12 @@ main {
     padding: 7px;
     margin: 10px;
 }
+
+/* IMAGE VIEW */
+
 .category .modal-dialog {
-    max-width: 96%;
-    max-height: 96%;
+    max-width: 90%;
+    max-height: 90%;
 }
 .category .modal-content {
     margin: 0 auto;
@@ -90,4 +93,11 @@ main {
 .category img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.category .bi-x-circle-fill {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    font-size: 4em;
 }
